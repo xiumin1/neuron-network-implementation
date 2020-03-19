@@ -1,0 +1,95 @@
+2 layers
+neurons= 100, 10
+learningrate=0.3
+
+file open
+60000
+28
+28
+image.size= 60000
+image[0].size= 784
+label.size = 60000
+image.size= 1000
+image[0].size= 784
+label.size = 1000
+training start
+0 iterations cost is: 8.41614
+1 iterations cost is: 7.36453
+2 iterations cost is: 5.07244
+3 iterations cost is: 3.71066
+4 iterations cost is: 2.81193
+5 iterations cost is: 2.17148
+6 iterations cost is: 1.69195
+7 iterations cost is: 1.33204
+8 iterations cost is: 1.0629
+9 iterations cost is: 0.85668
+10 iterations cost is: 0.694982
+start saving model
+evaluation start
+copy called !!!!!!!!
+predicts :
+5 9 8 2 7 3 6 9 4 5 1 4 8 0 2 1 8 8 8 3 1 0 7 0 8 4 6 4 7 6 7 1 1 0 6 8 3 1 5 2 4 4 9 7 5 6 4 5 8 7 9 6 5 6 4 9 1 0 0 4 4 6 1 1 6 8 4 5 8 8 3 0 9 9 6 0 6 9 6 6 0 7 5 4 1 4 6 8 2 6 6 1 2 9 0 0 1 4 4 0 6 3 2 5 4 5 4 3 8 5 4 7 6 6 6 0 4 7 6 8 7 0 1 7 1 7 6 5 0 7 4 7 0 5 3 6 2 9 9 3 3 6 9 9 8 0 0 9 2 0 1 6 8 1 6 0 5 7 7 7 1 4 8 8 4 2 0 4 1 9 4 5 8 0 2 2 7 0 0 0 0 5 1 3 5 1 1 9 4 1 5 2 9 5 9 4 5 9 9 4
+real nums :
+3 9 8 2 7 3 6 5 9 5 1 4 8 0 2 1 8 6 8 5 1 0 7 0 8 4 6 4 7 6 7 1 1 0 4 8 3 1 5 2 9 4 9 7 5 6 4 5 9 7 9 6 3 6 4 9 2 0 0 3 4 6 2 1 6 8 4 5 8 8 3 0 7 9 6 0 6 2 6 6 0 7 5 9 3 4 2 8 2 6 6 1 2 9 0 0 1 4 4 0 6 3 2 5 4 5 9 3 8 5 4 7 6 5 6 0 4 7 6 3 7 0 1 7 1 7 6 5 0 7 4 7 0 5 3 6 2 9 9 3 3 5 9 9 8 0 0 9 3 0 8 6 3 1 6 0 5 7 7 7 1 7 8 8 4 2 0 4 1 9 7 5 3 0 2 2 7 0 0 0 0 5 1 3 5 1 1 9 9 3 5 2 9 5 9 4 8 9 9 4
+Samples = 200, accuarcy = 0.85
+called
+prediction start
+Predict results = 5 2 7 3 4 9 5 8 9 6 8 9 6 2 5 5 6 3 8 0 4 7 9 5 9 9 0 8 7 5 7 0 8 8 7 4 5 4 1 1 4 9 8 3 1 8 9 4 6 8 9 3 6 1 0 9 4 0 5 0 6 1 3 4 8 8 3 2 6 6 9 9 9 7 3 8 7 1 8 6 9 9 9 8 7 9 8 3 3 0 3 2 1 4 8 3 5 8 8 3
+start loading the model
+error while opening the file
+done
+
+3 layers
+neurons=128,128,10
+learningrate=0.3
+
+file open
+60000
+28
+28
+image.size= 60000
+image[0].size= 784
+label.size = 60000
+image.size= 1000
+image[0].size= 784
+label.size = 1000
+training start
+0 iterations cost is: 9.88655
+1 iterations cost is: 7.23084
+2 iterations cost is: 7.15669
+3 iterations cost is: 6.97345
+4 iterations cost is: 6.61089
+5 iterations cost is: 6.32381
+6 iterations cost is: 6.15082
+7 iterations cost is: 6.0549
+8 iterations cost is: 5.95764
+9 iterations cost is: 5.86069
+10 iterations cost is: 5.64757
+11 iterations cost is: 5.24295
+12 iterations cost is: 4.89401
+13 iterations cost is: 4.51736
+14 iterations cost is: 4.32511
+15 iterations cost is: 4.00318
+16 iterations cost is: 3.82321
+17 iterations cost is: 3.62136
+18 iterations cost is: 3.32895
+19 iterations cost is: 2.84366
+20 iterations cost is: 2.428
+21 iterations cost is: 2.03146
+22 iterations cost is: 1.51869
+23 iterations cost is: 1.69711
+24 iterations cost is: 1.07498
+start saving model
+evaluation start
+copy called !!!!!!!!
+predicts :
+4 7 0 8 1 7 1 2 3 8 3 2 8 3 8 1 8 2 4 3 2 5 7 1 2 8 3 0 3 1 0 9 2 3 0 9 1 2 2 8 9 7 4 8 1 4 3 8 0 6 4 9 0 3 4 4 6 8 8 3 3 2 9 2 9 6 6 6 1 0 6 4 1 1 3 5 4 7 9 1 1 8 6 9 1 6 0 9 4 1 2 6 4 0 2 4 3 0 2 4 3 4 3 4 2 7 2 9 2 4 9 1 2 8 6 2 6 9 2 1 0 3 4 7 4 8 4 4 8 6 8 1 3 7 3 0 3 4 7 8 2 9 0 3 1 2 7 6 3 3 2 1 9 8 9 3 4 9 6 2 9 2 4 6 8 2 0 8 3 9 4 4 2 1 2 7 2 6 9 3 9 6 5 4 1 1 3 8 5 4 3 1 6 3 7 1 4 2 6 7
+real nums :
+4 7 0 8 8 7 1 2 3 5 3 2 8 3 3 1 5 6 4 3 2 5 7 1 2 8 5 0 2 1 0 9 2 5 0 9 1 8 2 8 9 7 4 8 1 9 8 8 0 6 2 9 0 5 9 4 6 8 5 5 3 2 9 2 9 6 6 8 1 0 6 4 1 0 8 5 4 7 9 1 1 5 6 9 1 6 0 9 4 1 2 6 4 0 2 4 5 3 6 4 5 4 3 4 2 7 8 4 2 4 7 1 2 8 5 2 6 9 2 1 5 3 4 7 4 5 4 4 8 6 5 1 5 7 5 0 3 4 7 8 8 9 0 8 1 2 7 6 3 3 5 1 9 8 2 5 4 9 0 2 9 5 4 6 5 8 0 5 3 9 9 4 6 1 8 7 6 6 9 3 9 6 5 4 1 1 2 5 5 4 3 8 6 5 7 1 4 2 6 3
+Samples = 200, accuarcy = 0.74
+called
+prediction start
+Predict results = 7 4 6 0 2 4 6 8 6 2 0 9 0 3 4 2 2 8 7 4 0 9 0 9 3 0 6 8 4 8 1 9 4 7 8 7 1 3 2 2 8 9 7 6 3 4 1 9 9 8 6 9 0 8 8 7 2 0 2 6 3 2 6 2 4 9 2 1 7 0 4 1 3 1 4 4 7 7 3 1 1 8 1 2 7 2 2 6 3 5 8 1 7 4 8 1 9 7 4 9
+start loading the model
+error while opening the file
+done
